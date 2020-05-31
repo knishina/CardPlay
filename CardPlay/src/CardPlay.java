@@ -44,6 +44,7 @@ public class CardPlay {
 			else if (choose == 3) {
 				deckSize -= 1;
 				play.removeCard();
+				System.out.println("Card removed.");
 			}
 			else if (choose == 4) {
 				play.replaceCards();
